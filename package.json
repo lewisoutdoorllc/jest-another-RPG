@@ -1,19 +1,29 @@
 {
   "name": "jest-another-rpg",
   "version": "1.0.0",
-  "description": "jest-another-RPG",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^7.0.3"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lewisoutdoorllc/jest-another-RPG.git"
   },
-  "author": "Cody Lewis",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/lewisoutdoorllc/jest-another-RPG/issues"
   },
-  "homepage": "https://github.com/lewisoutdoorllc/jest-another-RPG#readme"
+  "homepage": "https://github.com/lewisoutdoorllc/jest-another-RPG#readme",
+  "description": ""
 }
